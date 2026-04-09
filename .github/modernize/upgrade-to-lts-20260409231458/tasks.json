@@ -22,7 +22,16 @@
         "passIntegrationTests": "false",
         "securityComplianceCheck": "false"
       },
-      "status": "pending"
+      "status": "success",
+      "taskSummary": "Successfully upgraded Java 8 to 21, Spring Boot 2.7.18 to 3.4.5, Spring Framework to 6.x (transitive), and migrated javax.persistence.* and javax.validation.constraints.* to jakarta.* namespaces. Build passes and all unit tests pass.",
+      "successCriteriaStatus": {
+        "passBuild": "true",
+        "generateNewUnitTests": "false",
+        "generateNewIntegrationTests": "false",
+        "passUnitTests": "true",
+        "passIntegrationTests": "false",
+        "securityComplianceCheck": null
+      }
     }
   ],
   "metadata": {
